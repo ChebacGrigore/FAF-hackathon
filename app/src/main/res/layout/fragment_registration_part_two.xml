@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/text_view_msg_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:text="@string/what_board_games_do_you_like"
+            android:textAlignment="center"
+            android:textColor="@color/text_black"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:id="@+id/check_box_first"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/gray"
+            android:text="@string/dungeons_dragons"
+            android:textColor="@color/text_black"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_msg_top" />
+
+
+        <CheckBox
+            android:id="@+id/check_box_second"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/gray"
+            android:text="Chess"
+            android:textColor="@color/text_black"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="@+id/check_box_first"
+            app:layout_constraintTop_toBottomOf="@+id/check_box_first" />
+
+        <CheckBox
+            android:id="@+id/check_box_tree"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/gray"
+            android:text="Monopoly"
+            android:textColor="@color/text_black"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="@+id/check_box_second"
+            app:layout_constraintTop_toBottomOf="@+id/check_box_second" />
+
+        <CheckBox
+            android:id="@+id/check_box_four"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/gray"
+            android:text="Mafia"
+            android:textColor="@color/text_black"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="@+id/check_box_tree"
+            app:layout_constraintTop_toBottomOf="@+id/check_box_tree" />
+
+        <CheckBox
+            android:id="@+id/check_box_5"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/gray"
+            android:text="Checkers"
+            android:textColor="@color/text_black"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="@+id/check_box_four"
+            app:layout_constraintTop_toBottomOf="@+id/check_box_four" />
+
+        <CheckBox
+            android:id="@+id/check_box_six"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/gray"
+            android:text="Risk"
+            android:textColor="@color/text_black"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="@+id/check_box_5"
+            app:layout_constraintTop_toBottomOf="@+id/check_box_5" />
+
+        <Button
+            android:id="@+id/btn_sign_in_bottom"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/black"
+            android:text="Sign In"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/check_box_six" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

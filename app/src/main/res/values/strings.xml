@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ReconnectiingApp</string>
+    <string name="dungeons_dragons"><![CDATA[Dungeons & Dragons]]></string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="submit">Submit</string>
+    <string name="continue_text_msg">Continue</string>
+    <string name="what_board_games_do_you_like">What Board Games Do You Like?</string>
+    <string name="name">Name</string>
 </resources>
